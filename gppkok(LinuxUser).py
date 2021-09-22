@@ -56,13 +56,19 @@ def user():
 			if ask == '':
 				print('Silahkan isi usernamenya, jangan dibiarkan kosong ya!!\n')
 				time.sleep(1)
-			elif ask.lower() == 'fazila':
+			# Coba isi pake username yang kalian mau
+			# Misalnya username pacar kalian
+			# example : Fulan
+			elif ask.lower() == '':
 				usr.append(ask)
-				bd = '22 Agustus 2004'
+				# Terus masukin juga tanggal lahirnya
+				bd = ''
 				aby.append(bd)
-				tt = 'Malang'
+				# Tempat tinggalnya
+				tt = ''
 				aby.append(tt)
-				ns = 'SMK Telkom Malang'
+				# Sekolahnya
+				ns = ''
 				aby.append(ns)
 				doi = True
 				time.sleep(1)
@@ -335,7 +341,9 @@ IG gada apa apanya, jangan difollow. Dah gt aja, kalo mau tau lebih lanjut bisa 
 	while True:
 		response = input('About You? (y/n) ')
 		if response.lower() == 'y':
-			if usr[0] == 'fazila':
+			# Isi dengan nama yang diawal
+			# example : Fulan
+			if usr[0] == '':
 				time.sleep(1)
 				clear()
 				abty()
