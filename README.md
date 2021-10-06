@@ -8,7 +8,7 @@ Cara jalanin program (Untuk pengguna Windows):
 3. Copy file folder km-gpp-main ke C:\Users\UsernameKamu\Documents
 4. Buka cmd dengan cara, tekan windows + r ketik cmd
 5. Ketik "cd Documents\km-gpp-main"
-6. Ketik "python3 gppkok(WindowsUser).py"
+6. Ketik "python gppkok(WindowsUser).py"
 7. Selesai
 
 Cara jalanin program (Untuk pengguna Linux Debian/Ubuntu):
