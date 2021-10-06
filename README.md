@@ -1,5 +1,5 @@
 # Untuk-Kamu
-Iseng iseng aja
+Dibuat berdasarkan target projek untuk tahun 2021, berisi bermacam-macam games yang bisa dimainkan dalam bentuk CLI. Sudah memasuki update ke-2.
 
 Cara jalanin program :
 
