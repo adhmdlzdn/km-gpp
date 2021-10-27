@@ -26,7 +26,7 @@ def start():
 	clear()
 	b1()
 	try:
-		print("Diperbarui pada 06-10-21 (19:28)")
+		print("Diperbarui pada 27-10-21 (21:51)")
 		print("Author		: yn")
 		print("Github 		: https://github.com/myynxlazz")
 		print("Bahasa		: Python versi 3")
@@ -89,7 +89,7 @@ def loading():
 
 # 3.5 - Menu
 def menu():
-	print("Diperbarui pada 06-10-21 (19:28)")
+	print("Diperbarui pada 27-10-21 (21:51)")
 	print("Author		: yn")
 	print("Github 		: https://github.com/myynxlazz")
 	print("Bahasa		: Python versi 3")
