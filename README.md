@@ -1,5 +1,5 @@
 # Untuk-Kamu
-Dibuat berdasarkan target projek untuk tahun 2021, berisi bermacam-macam games yang bisa dimainkan dalam bentuk CLI. Sudah memasuki update ke-2.
+Dibuat berdasarkan target projek untuk tahun 2021, berisi bermacam-macam games yang bisa dimainkan dalam bentuk CLI. Sudah memasuki update ke-3.
 
 Cara jalanin program (Untuk pengguna Windows):
 
