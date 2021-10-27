@@ -331,7 +331,7 @@ def abt():
 	clear()
 	b3()
 	print("Time Now	:", date_time)
-	print("""\nHalo... Sebelumnya perkenalkan, nama saya ev biasa dipanggil exel. Saya bekerja untuk PT. cinta abadi. 
+	print("""\nHalo... Sebelumnya perkenalkan, nama saya yn. Saya bekerja untuk PT. cinta abadi. 
 Hobi saya menggalau dan menggamon. Keseharian BMMT (Bangun-Makan-Mandi-Tidur).
 Pengen punya doi, tapi lebih kepengen duit banyak.
 Mental sedikit keganggu, Kesehatan ya bgt, Makan masih nasi, Minum masih aqua. Stress dengan per sekolahan. 
