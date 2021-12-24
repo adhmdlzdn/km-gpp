@@ -26,7 +26,7 @@ def start():
 	clear()
 	b1()
 	try:
-		print("Diperbarui pada 22-12-21 (15:21)")
+		print("Diperbarui pada 25-12-2021 (00:06)")
 		print("Author		: yn")
 		print("Github 		: https://github.com/myynxlazz")
 		print("Bahasa		: Python versi 3")
@@ -94,7 +94,7 @@ def loading():
 
 # 3.5 - Menu
 def menu():
-	print("Diperbarui pada 22-12-21 (15:21)")
+	print("Diperbarui pada 25-12-2021 (00:06)")
 	print("Author		: yn")
 	print("Github 		: https://github.com/myynxlazz")
 	print("Bahasa		: Python versi 3")
@@ -106,6 +106,7 @@ def menu():
 	print("	1. Tebak-tebakan")
 	print("	2. Quiz")
 	print("	3. Rekomendasi Film Untuk Mu")
+	print("	4. Kalkulator Sederhana")
 	print("	8. About me")
 	print("	9. Restart Program")
 	print("	0. Keluar Program")
@@ -121,6 +122,9 @@ def menu():
 			elif opsi == "3":
 				time.sleep(1)
 				rfum()
+			elif opsi == "4":
+				time.sleep(1)
+				kalk()
 			elif opsi == "8":
 				time.sleep(1)
 				abt()
@@ -324,10 +328,12 @@ def rfum():
 	rekfm()
 # 3.8.1 - Main RFUM
 def rekfm():
-	action = ['Avengers', 'Red Notice', 'Transformers', 'The Expendable', 'Fast & Furious', 'Elysium', 'Spider-man', 'Iron-man']
-	romance = ['500 Days of Summer', '10 Things I hate About You', 'Mr. and Mrs Smith', 'Paper Towns', 'The Fault in Our Stars']
-	horror = ['The Medium', 'The Counjuring', 'The Insidious', 'A Quiet Place', 'Resident Evil']
-	print("Silahkan pilih genre film yang kalian mau (a)ction/(r)omance/(h)orror/(e)xit :")
+	action = ['Avengers', 'Tenet', 'Transformers', 'The Expendable', 'Fast & Furious', 'Pacific Rim', 'Nobody', 'Jurrasic World', 'Justice League', 'Mortal Kombat']
+	romance = ['500 Days of Summer', '10 Things I hate About You', 'Mr. and Mrs Smith', 'Paper Towns', 'The Fault in Our Stars', 'Kimi No Nawa', 'Friends With Benefits', 'Pride and Prejudice', 'Cinderlla', "Beauty and The Beast"]
+	horror = ['The Medium', 'The Counjuring', 'The Insidious', 'A Quiet Place', 'Mata Batin', 'The Tall Grass', 'Bird Box', 'The Curse of La Llorona', 'Sabrina', 'Impetigore']
+	comedy = ['Red Notice', 'Deadpool', 'Free Guy', 'Kungfu Hustle', 'Jumanji', 'My Stupid Bos', 'Yowis Ben', 'Reuni Z', 'The Guys', 'Susah Sinyal']
+	scifi = ['Spider-Man', 'Iron-Man', 'Venom', 'Godzilla', 'Terminator', 'Evangelion', 'Prometheus', 'Alien: Covenant', 'Captain America', '2012']
+	print("Silahkan pilih genre film yang kalian mau (a)ction/(r)omance/(h)orror/(c)omedy/(s)cifi/(e)xit :")
 	cek_genre = input("Pilihanmu : ")
 	while True:
 		if cek_genre.lower() == "a":
@@ -339,6 +345,9 @@ def rekfm():
 			print("5.", action[4])
 			print("6.", action[5])
 			print("7.", action[6])
+			print("8.", action[7])
+			print("9.", action[8])
+			print("10.", action[9])
 			time.sleep(1)
 			while True:
 				response = input("Ingin kembali? (y/n) ")
@@ -361,6 +370,11 @@ def rekfm():
 			print("3.", romance[2])
 			print("4.", romance[3])
 			print("5.", romance[4])
+			print("6.", romance[5])
+			print("7.", romance[6])
+			print("8.", romance[7])
+			print("9.", romance[8])
+			print("10.", romance[9])
 			time.sleep(1)
 			while True:
 				response = input("Ingin kembali ke main menu? (y/n) ")
@@ -383,6 +397,65 @@ def rekfm():
 			print("3.", horror[2])
 			print("4.", horror[3])
 			print("5.", horror[4])
+			print("6.", horror[5])
+			print("7.", horror[6])
+			print("8.", horror[7])
+			print("9.", horror[8])
+			print("10.", horror[9])
+			time.sleep(1)
+			while True:
+				response = input("Ingin kembali ke main menu? (y/n) ")
+				if response.lower() == "y":
+					time.sleep(1)
+					clear()
+					rekfm()
+				elif response.lower() == "n":
+					clear()
+					print("[!] Selamat tinggal, dadah :)")
+					time.sleep(2)
+					exit()
+				else:
+					print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+					time.sleep(1)
+		elif cek_genre.lower() == "c":
+			print("Pilihan film yang bagus untukmu adalah :")
+			print("1.", comedy[0])
+			print("2.", comedy[1])
+			print("3.", comedy[2])
+			print("4.", comedy[3])
+			print("5.", comedy[4])
+			print("6.", comedy[5])
+			print("7.", comedy[6])
+			print("8.", comedy[7])
+			print("9.", comedy[8])
+			print("10.", comedy[9])
+			time.sleep(1)
+			while True:
+				response = input("Ingin kembali ke main menu? (y/n) ")
+				if response.lower() == "y":
+					time.sleep(1)
+					clear()
+					rekfm()
+				elif response.lower() == "n":
+					clear()
+					print("[!] Selamat tinggal, dadah :)")
+					time.sleep(2)
+					exit()
+				else:
+					print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+					time.sleep(1)
+		elif cek_genre.lower() == "s":
+			print("Pilihan film yang bagus untukmu adalah :")
+			print("1.", scifi[0])
+			print("2.", scifi[1])
+			print("3.", scifi[2])
+			print("4.", scifi[3])
+			print("5.", scifi[4])
+			print("6.", scifi[5])
+			print("7.", scifi[6])
+			print("8.", scifi[7])
+			print("9.", scifi[8])
+			print("10.", scifi[9])
 			time.sleep(1)
 			while True:
 				response = input("Ingin kembali ke main menu? (y/n) ")
@@ -406,6 +479,146 @@ def rekfm():
 		else:
 			print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
 			time.sleep(1)
+
+# 3.9 - Kalkulator Sederhana
+def kalk():
+	clear()
+	b5()
+	try:
+		print(f"Time Now	: {waktu}")
+		tb = input("\nSelamat datang di program Kalkulator Sederhana, silahkan tekan enter untuk melanjutkan...")
+	except KeyboardInterrupt:
+		print("\n[!] Error : CTRL + C Terdeteksi... Menutup program..")
+		time.sleep(2)
+		exit()
+	clear()
+	mkalk()
+# 3.9.1 - Main Kalkulator
+def mkalk():
+	print("Silahkan masukan angka pertama, operator, dan angka kedua")
+	time.sleep(1)
+	angka_1 = float(input("masukan angka 1 = "))
+	operator = input("operator (+,-,x,/) : ")
+	angka_2 = float(input("masukan angka 2 = "))
+	while True:
+		if operator == "+": # Penjumlahan
+			hasil = angka_1 + angka_2
+			print(f"Hasilnya adalah {hasil:.2f}")
+			while True:
+				response = input("Ingin kembali menghitung? (y/n) ")
+				if response.lower() == "y":
+					time.sleep(1)
+					clear()
+					mkalk()
+				elif response.lower() == "n":
+					time.sleep(1)
+					while True:
+						response = input("Ingin kembali ke main menu? (y/n) ")
+						if response == "y":
+							time.sleep(1)
+							clear()
+							b1()
+							menu()
+						elif response == "n":
+							clear()
+							print("[!] Selamat tinggal, dadah :)")
+							time.sleep(2)
+							exit()
+						else:
+							print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+							time.sleep(1)
+				else:
+					print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+					time.sleep(1)
+		elif operator == "-": # Pengurangan
+			hasil = angka_1 - angka_2
+			print(f"Hasilnya adalah {hasil:.2f}")
+			while True:
+				response = input("Ingin kembali menghitung? (y/n) ")
+				if response.lower() == "y":
+					time.sleep(1)
+					clear()
+					mkalk()
+				elif response.lower() == "n":
+					time.sleep(1)
+					while True:
+						response = input("Ingin kembali ke main menu? (y/n) ")
+						if response == "y":
+							time.sleep(1)
+							clear()
+							b1()
+							menu()
+						elif response == "n":
+							clear()
+							print("[!] Selamat tinggal, dadah :)")
+							time.sleep(2)
+							exit()
+						else:
+							print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+							time.sleep(1)
+				else:
+					print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+					time.sleep(1)
+		elif operator == "x" or operator == "*": # Perkalian
+			hasil = angka_1 * angka_2
+			print(f"Hasilnya adalah {hasil:.2f}")
+			while True:
+				response = input("Ingin kembali menghitung? (y/n) ")
+				if response.lower() == "y":
+					time.sleep(1)
+					clear()
+					mkalk()
+				elif response.lower() == "n":
+					time.sleep(1)
+					while True:
+						response = input("Ingin kembali ke main menu? (y/n) ")
+						if response == "y":
+							time.sleep(1)
+							clear()
+							b1()
+							menu()
+						elif response == "n":
+							clear()
+							print("[!] Selamat tinggal, dadah :)")
+							time.sleep(2)
+							exit()
+						else:
+							print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+							time.sleep(1)
+				else:
+					print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+					time.sleep(1)
+		elif operator == "/": # Pembagian
+			hasil = angka_1 / angka_2
+			print(f"Hasilnya adalah {hasil:.2f}")
+			while True:
+				response = input("Ingin kembali menghitung? (y/n) ")
+				if response.lower() == "y":
+					time.sleep(1)
+					clear()
+					mkalk()
+				elif response.lower() == "n":
+					time.sleep(1)
+					while True:
+						response = input("Ingin kembali ke main menu? (y/n) ")
+						if response == "y":
+							time.sleep(1)
+							clear()
+							b1()
+							menu()
+						elif response == "n":
+							clear()
+							print("[!] Selamat tinggal, dadah :)")
+							time.sleep(2)
+							exit()
+						else:
+							print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+							time.sleep(1)
+				else:
+					print("[!] Error : Input yang dimasukkan tidak ada, silahkan pilih yang lain")
+					time.sleep(1)
+		else:
+			print("Masukan angka yang bener dong ah")
 
 # 3.10 - About me
 def abt():
@@ -461,9 +674,6 @@ def abty():
 	time.sleep(3)
 	print("Sip, dikit aja dulu. Semoga suka ya manisss....")
 	time.sleep(3)
-	print("Salam titik koma,")
-	print("ur bf,")
-	print("\nyn\n\n")
 	while True:
 		response = input("Ingin kembali ke main menu? (y/n) ")
 		if response.lower() == "y":
@@ -517,13 +727,23 @@ def b3():
 
 # 4.4 - Rekomendasi Film Untuk Mu
 def b4():
-	print('        __                 ')
-	print('       / _|                ')
-	print('  _ __| |_ _   _ _ __ ___  ')
-	print(' | \'__|  _| | | | \'_ ` _ \ ')
-	print(' | |  | | | |_| | | | | | |')
-	print(' |_|  |_|  \__,_|_| |_| |_|')
-	print('---------------------------')
+	print('       __                 ')
+	print('      / _|                ')
+	print(' _ __| |_ _   _ _ __ ___  ')
+	print('| \'__|  _| | | | \'_ ` _ \ ')
+	print('| |  | | | |_| | | | | | |')
+	print('|_|  |_|  \__,_|_| |_| |_|')
+	print('--------------------------')
+
+# 4.5 - Kalkulator Sederhana
+def b5():
+	print(' _  __     _ _          _       _             ')
+	print('| |/ /    | | |        | |     | |            ')
+	print('| \' / __ _| | | ___   _| | __ _| |_ ___  _ __ ')
+	print('|  < / _` | | |/ / | | | |/ _` | __/ _ \| \'__|')
+	print('| . \ (_| | |   <| |_| | | (_| | || (_) | |   ')
+	print('|_|\_\__,_|_|_|\_\\__,_|_|\__,_|\__\___/|_|   ')
+	print('----------------------------------------------')
 
 # 4.7 - About me banner
 def b8():
