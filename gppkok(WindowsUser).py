@@ -94,13 +94,13 @@ def loading():
 
 # 3.5 - Menu
 def menu():
-	print("Diperbarui pada 25-12-2021 (00:06)")
-	print("Author		: yn")
-	print("Github 		: https://github.com/myynxlazz")
+	print("Diperbarui pada 20-01-22 (20:37)")
+	print("Author		: adrian")
+	print("Github 		: https://github.com/adhmdlzdn")
 	print("Bahasa		: Python versi 3")
 	print("Versi		: 1.3")
 	print(f"Time Now	: {waktu}")
-	print("(c) 2021-2022, yn All rights reserved")
+	print("(c) 2021-2022, adhmdlzdn All rights reserved")
 	print("-------------------------------------")
 	print("[$] Opsi :")
 	print("	1. Tebak-tebakan")
