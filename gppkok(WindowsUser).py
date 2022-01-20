@@ -1,5 +1,5 @@
 # encoding: utf-8
-# (c) 2021-2022, yn All rights reserved
+# (c) 2021-2022, adhmdlzdn All rights reserved
 
 # 1 - Import module
 from datetime import datetime as dt
@@ -26,9 +26,9 @@ def start():
 	clear()
 	b1()
 	try:
-		print("Diperbarui pada 25-12-2021 (00:06)")
-		print("Author		: yn")
-		print("Github 		: https://github.com/myynxlazz")
+		print("Diperbarui pada 20-01-22 (20:37)")
+		print("Author		: adrian")
+		print("Github 		: https://github.com/adhmdlzdn")
 		print("Bahasa		: Python versi 3")
 		print("Deskripsi	: Just for fun")
 		enter = input("[~] Tekan Enter untuk melanjutkan...")
@@ -42,22 +42,22 @@ def start():
 # 3.3 - Ask for name
 def user():
 	name = str(input("How do i call you? : "))
-	if name.lower() == "fazila":
+	if name.lower() == "unknown": # ubah/ganti/isi dengan nama gebetan/pacar kalian
 		usr.append(name)
-		bd = "22 Agustus 2004"
+		bd = "" # ubah/ganti/isi dengan nama gebetan/pacar kalian
 		aby.append(bd)
-		tl = "Malang"
+		tl = "" # ubah/ganti/isi dengan tanggal ulang tahun dia
 		aby.append(tl)
-		ns = "SMK Telkom Malang"
+		ns = "" # ubah/ganti/isi dengan nama kota tempat dia tinggal
 		aby.append(ns)
-		nj = "RPL"
+		nj = "" # ubah/ganti/isi dengan nama sekolah dia
 		aby.append(nj)
-		np = "adrian"
+		np = "" # ubah/ganti/isi dengan nama jurusan yang dia ambil disekolah
 		aby.append(np)
 		time.sleep(2)
 		loading()
 	elif name.lower() == "":
-		alt_name = "Catfish"
+		alt_name = "Catfish" # ubah/ganti/isi dengan nama alternatif yang kalian inginkan
 		response = input(f"Kalo aku panggil kamu {alt_name}, boleh ga? (y/n) ")
 		if response.lower() == "y":
 			name = alt_name
@@ -638,7 +638,7 @@ IG gada apa apanya, jangan difollow. Dah gt aja, kalo mau tau lebih lanjut bisa 
 	while True:
 		response = input("About You? (y/n) ")
 		if response.lower() == "y":
-			if usr[0] == "fazila":
+			if usr[0] == "unknown": # ubah/ganti/isi dengan nama gebetan/pacar kalian saat diawal tadi
 				time.sleep(1)
 				clear()
 				abty()
