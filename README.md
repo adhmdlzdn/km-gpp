@@ -1,5 +1,6 @@
 # Km-gpp
-Dibuat berdasarkan target projek untuk tahun 2021, berisi bermacam-macam games yang bisa dimainkan dalam bentuk CLI. Sudah memasuki update ke-3. <br />
+Dibuat berdasarkan target projek untuk tahun 2021, berisi bermacam-macam games yang bisa dimainkan dalam bentuk CLI. Sudah memasuki update ke-3.
+<br />
 Cara jalanin program (Untuk pengguna Windows):
 
 1. Install dulu python-3.9.7-amd64.exe
@@ -20,3 +21,8 @@ Cara jalanin program (Untuk pengguna Linux Debian/Ubuntu):
 6. Selesai
 
 Gampang kan?
+
+<br / >
+
+[instagram]: https://www.instagram.com/adhmdlzdn/
+[website]: https://github.com/adhmdlzdn
