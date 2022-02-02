@@ -22,7 +22,5 @@ Cara jalanin program (Untuk pengguna Linux Debian/Ubuntu):
 
 Gampang kan?
 
-<br / >
-
 [instagram]: https://www.instagram.com/adhmdlzdn/
 [website]: https://github.com/adhmdlzdn
